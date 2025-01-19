@@ -1,3 +1,46 @@
+# Updated January 18, 2025
+
+Objective:
+
+The goal of this exercise is to build on your previous knowledge by creating a Java program with multiple classes, managing these files using a GitHub repository, and recording a video demonstration. You will create a simple Java program that demonstrates the concept of Encapsulation by using a class to represent books or students, with proper access modifiers and methods.
+Steps:
+1. Set Up Your Environment:
+
+If you completed Exercise 1, you should already have:
+
+    Java installed on your system.
+    An IDE (like IntelliJ IDEA, Eclipse, or Visual Studio Code) set up.
+    A GitHub repository created for managing your Java files.
+
+If not, please follow the instructions from Exercise 1 to set up your environment before continuing.
+2. Add a New Class File:
+
+    Open the same Java project you created in Exercise 1.
+    Create a new file in your project directory and name it Book.java (or Student.java or Car.java or Avatar.java if you prefer).
+    Write a class to demonstrate Encapsulation. 
+
+3. Update Your Main File:
+
+Modify your Main.java file to use the Book (or Student) class. Add code to create objects, set their attributes, and call their methods.
+4. Add the New Class to GitHub:
+
+    Open a terminal and navigate to your project directory.
+    Add the new file to your Git repository
+
+5. Record a Video Demonstration:
+
+Create a short video (2–3 minutes) that includes:
+
+    Showing the Main.java and Book.java files in your IDE.
+    Running the program in your IDE and demonstrating that it works as expected.
+    Displaying your updated GitHub repository with both Main.java and Book.java files.
+
+Submission Requirements:
+
+    GitHub Repository: Share the link to your GitHub repository containing both Main.java and Book.java files.
+    Video Demonstration: Upload your video to a platform like YouTube, OneDrive, or Google Drive and share the link.
+
+
 # JavaFirstProgram
 The goal of this exercise is to ensure you have Java installed on your system, set up an IDE for writing and running Java code, and create your first Java program. You will also learn to create a GitHub repository to manage your code.
 
