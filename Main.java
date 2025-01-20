@@ -14,30 +14,30 @@ public class Main {
 
         Book bookOne = new Book();
         Book bookTwo = new Book();
-        Book bookThree = new Book ();
-  
-        bookOne.Name=("The Vampire Chronicles");
-        bookOne.Title=("Interview with a Vampire");
-        bookOne.Author=("Anne Rice");
-        System.out.println(bookOne.Name);
-        System.out.println(bookOne.Title);
-        System.out.println(bookOne.Author);
+        Book bookThree = new Book();
+
+        bookOne.setName(("The Vampire Chronicles"));
+        bookOne.setTitle(("Interview with a Vampire"));
+        bookOne.setAuthor(("Anne Rice"));
+        System.out.println(bookOne.getName());
+        System.out.println(bookOne.getTitle());
+        System.out.println(bookOne.getAuthor());
         System.out.println();
 
-        bookTwo.Name=("The Vampire Chronicles");
-        bookTwo.Title=("The Vampire Lestat");
+        bookTwo.setName(("The Vampire Chronicles"));
+        bookTwo.setTitle(("The Vampire Lestat"));
         bookTwo.setAuthor("Anne Rice");
-        System.out.println(bookTwo.Name);
-        System.out.println(bookTwo.Title);
-        System.out.println(bookTwo.Author);
+        System.out.println(bookTwo.getName());
+        System.out.println(bookTwo.getTitle());
+        System.out.println(bookTwo.getAuthor());
         System.out.println();
 
-        bookThree.Name=("The Vampire Chronicles");
+        bookThree.setName(("The Vampire Chronicles"));
         bookThree.setTitle("Queen of the Damned");
         bookThree.setAuthor("Anne Rice");
-        System.out.println(bookThree.Name);
-        System.out.println(bookThree.Title);
-        System.out.println(bookThree.Author);
+        System.out.println(bookThree.getName());
+        System.out.println(bookThree.getTitle());
+        System.out.println(bookThree.getAuthor());
 
     }
 }
