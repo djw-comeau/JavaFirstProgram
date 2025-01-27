@@ -1,3 +1,44 @@
+# Updated January 26, 2025
+
+Objective: 
+
+The goal of this exercise is to extend your Java skills by adding constructors to the Java program you created in Exercise 2. You will modify your Book.java (or Student.java, Car.java, or Avatar.java) class to include constructors for initializing objects. You will also update your Main.java file to demonstrate the use of constructors, manage your code on GitHub, and record a video of the demonstration.
+Steps:
+
+    Set Up Your Environment:
+        If you completed Exercise 2, your environment should already be set up:
+            Java installed on your system.
+            An IDE (like IntelliJ IDEA, Eclipse, or Visual Studio Code).
+            Your GitHub repository already created and your files uploaded.
+        If not, follow the instructions from Exercise 1 and Exercise 2 to ensure everything is ready before proceeding.
+
+    Add a Constructor to Your Class:
+        Open the Java project you created in Exercise 2.
+        In the Book.java (or your chosen class, like Student.java), add a constructor that allows initializing the class attributes.
+        Use both a no-argument constructor and a parameterized constructor to initialize objects of the class. The no-argument constructor should set default values, while the parameterized constructor should allow you to initialize objects with custom values.
+        For example, in Book.java, you can add the constructor like this:
+
+    Update Your Main File:
+        In the Main.java file, update your code to use both constructors:
+            Create objects using the no-argument constructor and the parameterized constructor.
+            Demonstrate setting values for attributes using the setters, and use getters to display values in your program.
+
+    Add the Updated Class to GitHub:
+        After making the necessary changes, open a terminal, navigate to your project directory, and add the updated Book.java (or Student.java, etc.) file to your GitHub repository.
+
+    Record a Video Demonstration:
+        Create a short video (2–3 minutes) that includes:
+            Showing both Main.java and Book.java files in your IDE.
+            Running the program in your IDE and demonstrating that it works as expected.
+            Displaying your updated GitHub repository with both Main.java and Book.java files.
+        Submit your recorded video or upload your video to a platform like YouTube, OneDrive, or Google Drive, and share the link.
+
+Submission Requirements:
+
+    GitHub Repository: Share the link to your GitHub repository containing both Main.java and Book.java files with the constructor implementations.
+    Video Demonstration: Submit your recorded video or upload your video to a platform like YouTube, OneDrive, or Google Drive and share the link.
+
+
 # Updated January 18, 2025
 
 Objective:
