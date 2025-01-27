@@ -5,6 +5,8 @@
 // Sources Used:
 // https://www.geeksforgeeks.org/constructors-in-java/
 // https://www.programiz.com/java-programming/constructors
+// https://www.w3schools.com/java/java_constructors.asp
+// Class exercises
 
 public class Main {
     public static void main(String[] args) {
@@ -21,7 +23,7 @@ public class Main {
 
         // This part updates bookOne with the fifth book in the series, using our setters.
         bookOne.setTitle("Memnoch the Devil");
-        System.out.println("Result after using setters (Book Five)");
+        System.out.println("Result after using setters (Book Five).");
         System.out.println(bookOne.getName());
         System.out.println(bookOne.getTitle());
         System.out.println(bookOne.getAuthor());
@@ -29,7 +31,7 @@ public class Main {
 
         // Now, let's use our parametrized constructor for the sixth book in the series.
         Book bookTwo = new Book("The Vampire Chronicles", "Anne Rice", "The Vampire Armand");
-        System.out.println("Here's the results using our Parameterized Constructor for the sixth book");
+        System.out.println("Here's the results using our Parameterized Constructor for the sixth book.");
         System.out.println(bookTwo.getName());
         System.out.println(bookTwo.getTitle());
         System.out.println(bookTwo.getAuthor());
