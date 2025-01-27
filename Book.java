@@ -4,6 +4,19 @@ public class Book {
     private String Author;
     private String Title;
 
+    // This is my No Argument Constructor
+    public Book() {
+        Name = "The Vampire Chronicles";
+        Author = "Anne Rice";
+        Title = "The Tale of the Body Theif"; // This is the title of the fourth book in the series.
+    }
+
+    // This is my Parametized Constructor 
+    public Book(String name, String author, String title){
+        this.Name = name;
+        this.Author = author;
+        this.Title = title;
+    }
     // Setters
     public void setName(String n) {
         Name = n;

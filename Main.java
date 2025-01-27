@@ -1,43 +1,38 @@
 // Code by: David Comeau
-// Date: January 18, 2025
+// Date: January 26, 2025
 // Class: Introduction to Object Oriented Programming
 // Instructor: Nadia Gouda
 // Sources Used:
-// https://www.w3schools.com/java/java_oop.asp
-// https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
-// https://www.geeksforgeeks.org/encapsulation-in-java/
+// https://www.geeksforgeeks.org/constructors-in-java/
+// https://www.programiz.com/java-programming/constructors
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Exercise 2: Extending Your Java Skills");
+        System.out.println("Exercise 3: Using Constructors in Java");
         System.out.println();
 
+        // Using my no-argument constructor
         Book bookOne = new Book();
-        Book bookTwo = new Book();
-        Book bookThree = new Book();
-
-        bookOne.setName(("The Vampire Chronicles"));
-        bookOne.setTitle(("Interview with a Vampire"));
-        bookOne.setAuthor(("Anne Rice"));
+        System.out.println("Let's use our no-argument constructor here!");
         System.out.println(bookOne.getName());
         System.out.println(bookOne.getTitle());
         System.out.println(bookOne.getAuthor());
         System.out.println();
 
-        bookTwo.setName(("The Vampire Chronicles"));
-        bookTwo.setTitle(("The Vampire Lestat"));
-        bookTwo.setAuthor("Anne Rice");
+        // This part updates bookOne with the fifth book in the series, using our setters.
+        bookOne.setTitle("Memnoch the Devil");
+        System.out.println("Result after using setters (Book Five)");
+        System.out.println(bookOne.getName());
+        System.out.println(bookOne.getTitle());
+        System.out.println(bookOne.getAuthor());
+        System.out.println();
+
+        // Now, let's use our parametrized constructor for the sixth book in the series.
+        Book bookTwo = new Book("The Vampire Chronicles", "Anne Rice", "The Vampire Armand");
+        System.out.println("Here's the results using our Parameterized Constructor for the sixth book");
         System.out.println(bookTwo.getName());
         System.out.println(bookTwo.getTitle());
         System.out.println(bookTwo.getAuthor());
-        System.out.println();
-
-        bookThree.setName(("The Vampire Chronicles"));
-        bookThree.setTitle("Queen of the Damned");
-        bookThree.setAuthor("Anne Rice");
-        System.out.println(bookThree.getName());
-        System.out.println(bookThree.getTitle());
-        System.out.println(bookThree.getAuthor());
 
     }
 }
